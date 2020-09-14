@@ -1,0 +1,40 @@
+[실습1]
+>>> v1 = 100
+>>> v2 = 50
+>>> r1 = v1 + v2
+>>> r2 = v1 - v2
+>>> r3 = v1 * v2
+>>> r4 = v1 / v2
+>>> r1
+150
+>>> print("r1 =", r1)
+r1 = 150
+>>> print("r2 =", r2)
+r2 = 50
+>>> print("r3 =", r3)
+r3 = 5000
+>>> print("r4 =", r4)
+r4 = 2.0
+
+[실습2]
+>>> name1="이"
+>>> name1 = "이"
+>>> name2 = "동"
+>>> name3 = "화"
+>>> print(name1, name2, name3)
+이 동 화
+>>> print(name1, name2, name3, sep=":::")
+이:::동:::화
+>>> print(name1, name2, name3, sep="\n")
+이
+동
+화
+
+[실습3]
+>>> num1 = 10
+>>> num2 = 25
+>>> num3 = 34
+>>> result_sum = num1 + num2 + num3
+>>> result_avg = (num1 + num2 + num3)/3
+>>> print("합은", result_sum, "이고 평균은", result_avg, "입니다.")
+합은 69 이고 평균은 23.0 입니다.
